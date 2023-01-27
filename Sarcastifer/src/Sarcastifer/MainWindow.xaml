@@ -1,0 +1,30 @@
+﻿<Window x:Class="Sarcastifer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sarcastifer"
+        mc:Ignorable="d"        
+        Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize">
+    <Grid x:Name="mainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <Border Background="LightGray">
+            <StackPanel x:Name="topPanel" Orientation="Vertical">
+                <Label FontFamily="ComicSans" FontSize="24" Foreground="DarkSlateGray">Enter Text Here</Label>
+                <TextBox x:Name="Entry" Margin="10" TextWrapping="Wrap" Height="150"/>
+            </StackPanel>
+        </Border>
+
+
+        <Border Grid.Row="1" Background="LightBlue">
+            <StackPanel  Orientation="Vertical">
+                <Label FontFamily="ComicSans" FontSize="24">oUtPuT</Label>
+                <TextBox x:Name="Display" Grid.Row="1" Margin="10" Text="{Binding DisplayText}" IsEnabled="False" TextWrapping="Wrap" Height="150"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
