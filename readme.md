@@ -8,7 +8,7 @@ Joke app I wrote to remove the tedium of make sarcasm more visible in text forma
 
 ## Getting Started
 
-Download, run, type in text that is going to an email to that sibling, news anchor, or dog groomer that you can't stand. The Sarcastifier will spit out preformatted text that will make all sarcasm clear to even a member of the federal government. 
+Download, run, type in text that is going to an email to that sibling, news anchor, or dog groomer that you can't stand. The Sarcastifier will spit out preformatted text that will make all sarcasm abundantly clear. 
 
 ### Dependencies
 
